@@ -44,7 +44,7 @@ end
 
 ```ruby 
 def students
-  #find all students by department_id
+  #find all students by course_id
 end
 
 def add_student(student)
