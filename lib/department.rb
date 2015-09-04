@@ -1,4 +1,5 @@
 class Department
+<<<<<<< HEAD
   ATTRIBUTES = {
     :id => "INTEGER PRIMARY KEY",
     :name => "TEXT",
@@ -90,3 +91,7 @@ class Department
     persisted? ? update : insert
   end
 end
+=======
+	 
+end
+>>>>>>> master

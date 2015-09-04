@@ -1,4 +1,5 @@
 class Registration
+<<<<<<< HEAD
   ATTRIBUTES = {
     :id => "INTEGER",
     :course_id => "INTEGER",
@@ -23,4 +24,7 @@ class Registration
   def self.schema_definition
     ATTRIBUTES.collect{|k,v| "#{k} #{v}"}.join(",")
   end
+=======
+	
+>>>>>>> master
 end
