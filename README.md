@@ -11,9 +11,9 @@
 4. Create a new instance of a student from the database.(Students will exist in the database in a row, you will create an instance (object) so you can use that object.)
 5. Find a student by their name or id.
 6. Add a course to a student.
-7. Retreive all of the courses of a student.
+7. Retrieve all of the courses of a student.
 
-After completing this lab, your Course, Department and Registration classes will have similar functionality and the abilitiy to talk to each other. In order to make this happen, your tables will use <a href="http://www.sql-join.com/">SQL joins</a>. You will be able to do things like find all courses by department name or add a course to a particular student.
+After completing this lab, your Course, Department and Registration classes will have similar functionality and the ability to talk to each other. In order to make this happen, your tables will use <a href="http://www.sql-join.com/">SQL joins</a>. You will be able to do things like find all courses by department name or add a course to a particular student.
 
 ###A Note On Integration Tests
 <a href="https://en.wikipedia.org/wiki/Integration_testing">Integration testing</a> tests how your models interact with each other.
