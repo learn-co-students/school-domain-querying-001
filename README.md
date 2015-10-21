@@ -38,7 +38,7 @@ def department
 end
  
 def department=(department)
-  #set department id when deparment is set
+  #set department id when department is set
 end
 ```
 
