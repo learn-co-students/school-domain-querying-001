@@ -62,7 +62,9 @@ describe "Integration" do
 
     it "persists changes to changed objects after course added" do
       comp_sci.name = "Communications"
+      comp_sci.save
       dot_net.name = "Underwater Basket Weaving"
+      dot_net.save
       comp_sci.add_course dot_net
 
       comp_sci_from_db = Department.find_by_name "Communications"
