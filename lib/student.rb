@@ -84,7 +84,7 @@ class Student
       SET name = ?,tagline = ?,github = ?,twitter = ?,blog_url = ?,image_url = ?,biography = ?
       WHERE id = ?
     SQL
-    DB[:conn].execute(sql, attribute_values, id)
+    DB[:conn].execute(sql, attribute_values, self.id)
   end
 
   def persisted?
