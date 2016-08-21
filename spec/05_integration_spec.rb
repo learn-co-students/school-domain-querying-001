@@ -48,7 +48,6 @@ describe "Integration" do
     it "courses listed from department" do
       dot_net.department = comp_sci
       dot_net.save
-
       expect(comp_sci.courses.count).to eq 1
       expect(comp_sci.courses.first.name).to eq("Advanced .NET Programming")
     end

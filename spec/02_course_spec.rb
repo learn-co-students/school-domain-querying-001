@@ -104,7 +104,7 @@ describe Course do
       
       dot_net.insert
 
-      dot_net_from_db = Course.find_all_by_department_id(9999)[0]
+      dot_net_from_db = Course.find_all_by_department_id(9999)
 
       expect(dot_net_from_db.name).to eq("Advanced .NET Programming")
       expect(dot_net_from_db).to be_an_instance_of(Course)
